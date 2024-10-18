@@ -1,0 +1,76 @@
+header{
+    color: rgb(255, 0, 0);
+    text-align: center;
+}
+
+
+body{
+    background: url(../assets/imagenes/god_of_war.jpeg);
+    background-size: cover;
+    background-attachment: fixed;
+    font-style: normal;
+    font-size: large;
+}
+
+.yo{
+    width: 300px;
+    margin: 60px 225px 80px 225px;
+}
+
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+
+a:hover{
+    background-color: rgba(128, 128, 128, 0.719);
+}
+
+
+main{
+    background: white;
+    width: 800px;
+    border: 5px solid grey;
+    border-radius: 10px;
+    box-shadow: 10px 10px 20px grey;
+    margin: 0 auto;
+    padding: 20px 10px 30px 20px;
+    background-color: rgba(139, 133, 133, 0.555);
+}
+
+
+.btn1{
+    padding: 10px 20px;
+    border: 3px solid #272c30;
+    border-radius: 10px;
+}
+
+
+.btn1:hover{
+    background-color: rgba(41, 39, 39, 0.719);
+}
+
+
+section{
+    margin: 20px 0 0 0;
+}
+
+
+nav{
+    margin: 20px 0 20px 0;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;    
+}
+
+
+footer{
+    font-style: italic;
+}
+
+
+.text{
+    float: right;
+}
